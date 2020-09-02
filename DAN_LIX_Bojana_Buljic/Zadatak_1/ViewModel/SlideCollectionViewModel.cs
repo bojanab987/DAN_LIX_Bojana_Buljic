@@ -209,7 +209,7 @@ namespace Zadatak_1.ViewModel
             //List of models for cards
             var models = new List<CardModel>();
             //Get all image URIs in folder
-            var images = Directory.GetFiles(@relativePath, "*.jpg", SearchOption.AllDirectories);
+            var images = Directory.GetFiles(relativePath, "*.jpg", SearchOption.AllDirectories);
             //Card id begin at 0
             var id = 0;
 

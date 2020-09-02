@@ -1,5 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
+using Zadatak_1.Commands;
 using Zadatak_1.ViewModel;
 
 namespace Zadatak_1.View
@@ -23,7 +25,7 @@ namespace Zadatak_1.View
         {
             var game = DataContext as GameViewModel;
             var button = sender as Button;
-            game.ClickedSlide(button.DataContext);
+            game.ClickedCard(button.DataContext);
         }
 
         /// <summary>
@@ -36,5 +38,7 @@ namespace Zadatak_1.View
             var game = DataContext as GameViewModel;
             game.Restart();
         }
+
+        
     }
 }

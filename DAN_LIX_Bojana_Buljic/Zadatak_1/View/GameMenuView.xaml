@@ -38,6 +38,7 @@
                                 Foreground="#FFFF9085"
                                 FontSize="20">Play Again</Button>
                     </StackPanel>
+                    
                 </DockPanel>
                 <StackPanel DataContext="{Binding GameInfo}"
                             DockPanel.Dock="Left">
@@ -72,7 +73,7 @@
                     <Setter Property="Margin"
                             Value="1" />
                 </Style>
-            </Grid.Resources>
+            </Grid.Resources>            
             <!-- Column 1(Left) -->
             <Button Grid.Row="0"
                     Grid.Column="0"

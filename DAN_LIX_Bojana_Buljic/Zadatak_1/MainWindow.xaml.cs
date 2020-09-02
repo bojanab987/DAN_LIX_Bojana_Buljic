@@ -11,7 +11,7 @@ namespace Zadatak_1
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = new StartMenuViewModel(this);
+            DataContext = new StartMenuViewModel(this);
         }
     }
 }
