@@ -56,9 +56,16 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="ViewModel\CardViewModel.cs" />
+    <Compile Include="ViewModel\GameInfoViewModel.cs" />
     <Compile Include="ViewModel\GameViewModel.cs" />
+    <Compile Include="ViewModel\SlideCollectionViewModel.cs" />
     <Compile Include="ViewModel\StartMenuViewModel.cs" />
+    <Compile Include="ViewModel\TimerViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\GameMenuView.xaml.cs">
+      <DependentUpon>GameMenuView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\StartMenuView.xaml.cs">
       <DependentUpon>StartMenuView.xaml</DependentUpon>
     </Compile>
@@ -74,6 +81,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\GameMenuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\StartMenuView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

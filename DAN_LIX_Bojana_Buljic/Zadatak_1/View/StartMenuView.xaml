@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zadatak_1.View"
         mc:Ignorable="d"
-        Height="600" Width="800">
+        d:DesignHeight="600" d:DesignWidth="800">
     <Grid>
         <Grid.Background>
             <ImageBrush Stretch="UniformToFill"
@@ -43,8 +43,8 @@
                       FontSize="20">
                 <ComboBox.Items>
                     <ComboBoxItem>Animals</ComboBoxItem>
-                    <ComboBoxItem>Cars</ComboBoxItem>
-                    <ComboBoxItem>Foods</ComboBoxItem>
+                    <ComboBoxItem>Birds</ComboBoxItem>
+                    <ComboBoxItem>Food</ComboBoxItem>
                 </ComboBox.Items>
             </ComboBox>
             <Button DockPanel.Dock="Top"
